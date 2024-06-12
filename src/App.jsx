@@ -34,7 +34,7 @@ function App() {
 
       <div id='maindiv' className='' >
         {/* lg:flex lg:flex-row lg:justify-between */}
-        <div className='flex flex-row justify-between pt-16 min-h-screen' id='Home' >
+        <div className='flex flex-col-reverse items-center  sm:flex-row sm:justify-between pt-16 min-h-screen ' id='Home' >
           <div className=" flex justify-center flex-col items-center  min-[800px]:w-3/5 min-[800px]:items-start" >
             <CardHeader className="text-4xl text font-bold text-center sm:text-6xl min-[800px]:text-start lg:text-8xl" >
               Harmony Hub Music.
@@ -65,7 +65,12 @@ function App() {
 
             </CardFooter>
           </div>
-          <img src="./assets/HH_icon.svg" alt="" className='w-[30%] max-[800px]:hidden ' />
+          <br />
+         
+          <img src="./assets/HH_icon.svg" alt="" className='h-44 lg:w-[30%]  min-[800px]:flex lg:h-fit sm:hidden sm:w-[30%]  lg:flex' />
+          <br />
+         
+          
         </div>
 
 

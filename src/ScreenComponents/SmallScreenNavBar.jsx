@@ -11,7 +11,7 @@ const SmallScreenNavBar = () => {
     return (
         <div className='h-14 border-b w-full fixed top-0 z-50 flex flex-row items-center justify-between backdrop-blur-xl px-8 ' >
             <div className='flex flex-row gap-3' >
-                <img src="src/assets/HH_icon.svg" alt="" width={20} height={20} />
+                <img src="./assets/HH_icon.svg" alt="" width={20} height={20} />
                 <p className='text-lg font-semibold' >Harmony Hub</p>
 
 
