@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button, buttonVariants } from './components/ui/button'
@@ -65,7 +65,7 @@ function App() {
 
             </CardFooter>
           </div>
-          <img src="src/assets/HH_icon.svg" alt="" className='w-[30%] max-[800px]:hidden ' />
+          <img src="./assets/HH_icon.svg" alt="" className='w-[30%] max-[800px]:hidden ' />
         </div>
 
 
@@ -129,17 +129,17 @@ function App() {
 
           <br />
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6' >
-            <ScreensShotscard image={"src/assets/music_app_HomeScreen.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_Drawer.png"} />
-            <ScreensShotscard image={" src/assets/Music_App_PlayListScreen.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_SongsPlayScreen.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_Playlists.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_FavSongs.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_Recent.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_Downloads.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_Settings.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_Search_1.png"} />
-            <ScreensShotscard image={"src/assets/Music_App_Search_2.png"} />
+            <ScreensShotscard image={"./assets/music_app_HomeScreen.png"} />
+            <ScreensShotscard image={"./assets/Music_App_Drawer.png"} />
+            <ScreensShotscard image={" ./assets/Music_App_PlayListScreen.png"} />
+            <ScreensShotscard image={"./assets/Music_App_SongsPlayScreen.png"} />
+            <ScreensShotscard image={"./assets/Music_App_Playlists.png"} />
+            <ScreensShotscard image={"./assets/Music_App_FavSongs.png"} />
+            <ScreensShotscard image={"./assets/Music_App_Recent.png"} />
+            <ScreensShotscard image={"./assets/Music_App_Downloads.png"} />
+            <ScreensShotscard image={"./assets/Music_App_Settings.png"} />
+            <ScreensShotscard image={"./assets/Music_App_Search_1.png"} />
+            <ScreensShotscard image={"./assets/Music_App_Search_2.png"} />
 
 
 
@@ -170,7 +170,7 @@ function App() {
 
         
         <div className='flex gap-2 flex-row justify-center items-center text-gray-500 ' >
-          <img src="src/assets/HH_icon.svg" alt="" width={30} />
+          <img src="./assets/HH_icon.svg" alt="" width={30} />
        
 
           <p className='text-1xl font-light' >Harmony Hub Music</p>
